@@ -1,0 +1,22 @@
+{
+    "name": "xu-chris/colorcontrast",
+    "description": "Calculates contrast color for given HEX color",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Christian Xu",
+            "email": "pm@chrisxu.me"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1",
+        "php": ">=8.1.0 <8.4.0",
+        "getkirby/cms": "^4.0"
+    },
+    "extra": {
+        "installer-name": "colorcontrast"
+    },
+    "minimum-stability": "beta"
+}
