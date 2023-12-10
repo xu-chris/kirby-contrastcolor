@@ -1,7 +1,7 @@
 <?php 
 
 class Colorcontrast {
-    public static function toColorContrast($color) {
+    public static function toContrastColor($color) {
         // hexColor RGB
         $R1 = hexdec(substr($color, 1, 2));
         $G1 = hexdec(substr($color, 3, 2));

@@ -1,11 +1,11 @@
 <?php
 
-require_once __DIR__.'/lib/colorcontrast.php';
+require_once __DIR__.'/lib/contrastcolor.php';
 
-Kirby::plugin('xuchris/colorcontrast', [
+Kirby::plugin('xuchris/contrastcolor', [
     'fieldMethods' => [
         'toContrastColor' => function($field) {
-            return Colorcontrast::toColorContrast($field->value);
+            return Colorcontrast::toContrastColor($field->value);
         }
     ]
 ]);
