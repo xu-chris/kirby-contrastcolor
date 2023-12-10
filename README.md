@@ -3,9 +3,9 @@
 Adds `toContrastColor()` to calculate wether using a white or a black color for a given image color in Kirby.
 
 ## 1 Installation
-Download and copy this repository to `site/plugins/colorcontrast` or use compose:
+Download and copy this repository to `site/plugins/contrastcolor` or use compose:
 ```
-compose require xu-chris/colorcontrast
+compose require xu-chris/contrastcolor
 ```
 
 ## 2 Blueprint for image files
