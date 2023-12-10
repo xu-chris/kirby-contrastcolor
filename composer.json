@@ -3,7 +3,7 @@
     "description": "Calculates contrast color for given HEX color",
     "type": "kirby-plugin",
     "license": "MIT",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "authors": [
         {
             "name": "Christian Xu",
