@@ -11,11 +11,16 @@
     ],
     "require": {
         "getkirby/composer-installer": "^1.1",
-        "php": ">=8.1.0 <8.4.0",
+        "php": ">=8.1.0",
         "getkirby/cms": "^4.0"
     },
     "extra": {
         "installer-name": "contrastcolor"
     },
-    "minimum-stability": "beta"
+    "minimum-stability": "beta",
+    "config": {
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    }
 }
